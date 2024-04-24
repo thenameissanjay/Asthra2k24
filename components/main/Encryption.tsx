@@ -5,7 +5,25 @@ import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 
-const Encryption = () => {
+interface Encryptionprops {
+  name1: string;
+  image1:string;
+   // Add imageUrl prop
+}
+
+
+const Encryption = ({name1,image1}:Encryptionprops) => {
+  const words = [
+    {
+      text: name1,
+      className: "text-blue-500 dark:text-blue-500",
+
+    },
+  
+    {
+      text: "Events.",
+    },
+  ];
   return (
     <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
       <div className="absolute w-auto h-auto top-0 z-[5]">
@@ -13,12 +31,11 @@ const Encryption = () => {
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
         >
-          Performance
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            {" "}
-            &{" "}
+ 
+                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+           
           </span>
-          Security
+      
         </motion.div>
       </div>
 
@@ -40,13 +57,13 @@ const Encryption = () => {
           />
         </div>
 
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
-          <h1 className="Welcome-text text-[12px]">Encryption</h1>
+        <div className="md:text5xl text-2xl lg:text-6xl font-bold text-center text-white relative z-2 mt-1000 border-[#7042f88b] opacity-[0.9]">
+        {name1} Events
         </div>
       </div>
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Secure your data with end-to-end encryption
+   
         </div>
       </div>
 
@@ -58,11 +75,10 @@ const Encryption = () => {
           playsInline
           preload="false"
           className="w-full h-auto"
-          src="/encryption.webm/"
+          src={image1}
         />
       </div>
     </div>
   );
 };
-
-export default Encryption;
+export default Encryption

@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "constants/index.ts", "components/main/Signupdemo.tsx", "components/main/Signupdemo.tsx"],
   "exclude": ["node_modules"]
 }
