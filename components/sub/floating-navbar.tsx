@@ -80,7 +80,7 @@ export const FloatingNav = ({
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
         </button>
         </Link>
-        <Link href="https://www.instagram.com/asthra.2k24/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D">
+        <Link href="https://www.instagram.com/asthra.2k24/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
           <img src="./insta1.png" className="w-10 h-10"></img>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
         </Link>

@@ -20,7 +20,7 @@ export const SparklesPreview = () => {
             initial={{ y: -800 }}
             animate={{ y: 0 }}
             transition={{ duration: 1 }}
-            className=" md:text-7xl text-6xl lg:text-9xl font-bold text-center text-white relative z-2 mt-1100"
+            className=" md:text-7xl text-5xl lg:text-9xl font-bold text-center text-white relative z-2 mt-1100"
           >
             Asthra 2K24
           </motion.h1>
@@ -31,7 +31,7 @@ export const SparklesPreview = () => {
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4 bg-black" />
-<div className="text-center md:text-2xl text-md text-bold mt-10 text-white">
+<div className="text-center md:text-2xl text-sm text-bold mt-10 text-white">
 18th THE NATIONAL LEVEL TECHNICAL SYMPOSIUM
 </div>
           {/* Core component */}

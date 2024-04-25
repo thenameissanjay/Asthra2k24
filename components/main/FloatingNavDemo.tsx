@@ -12,15 +12,10 @@ export function FloatingNavDemo() {
     {
       name: "Events",
       link: "/pages",
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
-    },
-    {
-      name: "Teams",
-      link: "?section=teams",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
-      ),
-    },
+      ),    },
+  
   ];
   return (
     <div className="relative  w-full">

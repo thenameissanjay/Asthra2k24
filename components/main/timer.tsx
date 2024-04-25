@@ -33,8 +33,8 @@ const Countdown: React.FC = () => {
   });
 
   return (
-    <div className="flex justify-center items-center  ">
-      <div className="grid grid-flow-col md:gap-20 gap-7 text-center auto-cols-max">
+    <div className=" flex justify-center items-center ">
+      <div className="grid grid-flow-col md:gap-20 gap-2 text-center auto-cols-max">
         <div className="flex flex-col p-4 bg-neutral rounded-box text-2xl md:text-5xl  text-white text-neutral-content">
           <span className="countdown font-mono md:text-9xl text-3xl">
             <span style={{ '--value': timeLeft.days } as any}>{timeLeft.days}</span>

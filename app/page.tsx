@@ -55,24 +55,18 @@ const getHeight1 = () => {
 
 export default function Home() {
 
- 
+  const [isAnimated2, setIsAnimated2] = useState(true);
 
+  const [isAnimated1, setIsAnimated1] = useState(true);
 
+  const [isAnimated3, setIsAnimated3] = useState(true);
 
-
-  const [isAnimated2, setIsAnimated2] = useState(false);
-
-  const [isAnimated1, setIsAnimated1] = useState(false);
-
-  const [isAnimated3, setIsAnimated3] = useState(false);
-
-  const [isAnimated4, setIsAnimated4] = useState(false);
+  const [isAnimated4, setIsAnimated4] = useState(true);
 
   const { ref: ref2, inView: inView2 } = useInView({
-      triggerOnce: true, // Only trigger once
-      threshold: 0, // Trigger when any part of the component is in view
-  });
-
+    triggerOnce: true, // Only trigger once
+    threshold: 0, // Trigger when at least 10% of the component is in view
+});
   useEffect(() => {
     
     if (inView2) {
@@ -120,7 +114,7 @@ export default function Home() {
       setIsAnimated4(false);
   };
   return (
-    <main className="h-full w-full">
+    <main className="h-full w-full overflow-hidden">
         
         <div className="flex flex-col h-screen justify-end">
       <div className="flex flex-col gap-60">
@@ -134,8 +128,8 @@ export default function Home() {
     </div>
     <Sponsor/>
     <motion.div
-      initial={{ x: -400 }} // Adjusted initial position off-screen
-      animate={isAnimated1 ? { x: 10 } : { x: -400 }} // Conditionally animate based on isAnimated2
+      initial={{ x: -200 }} // Adjusted initial position off-screen
+      animate={isAnimated1 ? { x: 10 } : { x: -200 }} // Conditionally animate based on isAnimated2
       transition={{ duration: 1 }} // Duration of the animation
       onViewportEnter={handleViewportEnter1} // Callback when component enters viewport
       onViewportLeave={handleViewportLeave1} // Callback when component leaves viewport
@@ -143,8 +137,8 @@ export default function Home() {
       <College />
     </motion.div>
     <motion.div
-      initial={{ x: 400 }} // Adjusted initial position off-screen
-      animate={isAnimated2 ? { x: 0 } : { x: 400 }} // Conditionally animate based on isAnimated2
+      initial={{ x: 200 }} // Adjusted initial position off-screen
+      animate={isAnimated2 ? { x: 0 } : { x: 200 }} // Conditionally animate based on isAnimated2
       transition={{ duration: 1 }} // Duration of the animation
       onViewportEnter={handleViewportEnter2} // Callback when component enters viewport
       onViewportLeave={handleViewportLeave2} // Callback when component leaves viewport
@@ -152,11 +146,11 @@ export default function Home() {
       <Department/>
       </motion.div>
 
-      <div  className="mt-[-40rem]" style={{ marginTop: getHeight(), marginBottom: getHeight1() }}>
+<div  className="mt-[-40rem]" style={{ marginTop: getHeight(), marginBottom: getHeight1() }}>
   <Stat />
 </div>
 
-<div className="mb-0 flex justify-center items-center" style={{ marginBottom: getHeight() }}>
+<div className="mb-0 flex justify-center items-center overflow-hidden" style={{ marginBottom: getHeight() }}>
 <TimerBg/>
 </div>
 
@@ -167,8 +161,8 @@ export default function Home() {
 
       <div  style={{marginTop:getHeight4()}}>
       <motion.div
-                    initial={{ x: -400 }} // Adjusted initial position off-screen
-                    animate={isAnimated3 ? { x: 0 } : { x: -400 }} // Conditionally animate based on isAnimated2
+                    initial={{ x: -200 }} // Adjusted initial position off-screen
+                    animate={isAnimated3 ? { x: 0 } : { x: -200 }} // Conditionally animate based on isAnimated2
                     transition={{ duration: 1 }} // Duration of the animation
                     onViewportEnter={handleViewportEnter3} // Callback when component enters viewport
                     onViewportLeave={handleViewportLeave3} // Callback when component leaves viewport
@@ -183,8 +177,8 @@ export default function Home() {
 
             <div ref={ref2} style={{marginTop:getHeight2()}}>
                 <motion.div
-                    initial={{ x: 400 }} // Adjusted initial position off-screen
-                    animate={isAnimated4 ? { x: 0 } : { x: 400 }} // Conditionally animate based on isAnimated2
+                    initial={{ x: 200 }} // Adjusted initial position off-screen
+                    animate={isAnimated4 ? { x: 0 } : { x: 200 }} // Conditionally animate based on isAnimated2
                     transition={{ duration: 1 }} // Duration of the animation
                     onViewportEnter={handleViewportEnter4} // Callback when component enters viewport
                     onViewportLeave={handleViewportLeave4} // Callback when component leaves viewport
