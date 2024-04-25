@@ -35,7 +35,7 @@ const TimerBg: React.FC = () => {
   className="bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-lg text-center p-8 m-8 text-2xl mx-15 animate-pulse border-2 border-transparent rounded-full w-72 inline-block"
   style={{ cursor: "pointer" }} // Add cursor style to indicate clickable
 >
-  On-Spot <br />Registration
+  On-Spot Registration available
 </button>
     </Link>
           

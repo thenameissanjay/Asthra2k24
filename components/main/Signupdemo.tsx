@@ -94,11 +94,11 @@ export function SignupFormDemo() {
   const fieldsCountMap: { [key: string]: number } = {
     "NEURONOVA": 1, // NEURONOVA - 1 field
     "PUZZLE PALAZZO": 2, // PUZZLE PALAZZO - 2 fields
-    "KNOWLEDGE KNOCKOUT": 4, // KNOWLEDGE KNOCKOUT - 3 fields
-    "LINK & WIN": 4, // LINK & WIN - 4 fields
-    "CHANNEL SURFING": 4, // CHANNEL SURFING - 4 fields
+    "KNOWLEDGE KNOCKOUT": 2, // KNOWLEDGE KNOCKOUT - 3 fields
+    "LINK & WIN": 2, // LINK & WIN - 4 fields
+    "TV TUNER TANGO": 6, // CHANNEL SURFING - 4 fields
     "KNOWLEDGE KALEIDESCOPE": 3, // KNOWLEDGE KALEIDESCOPE - 4 fields
-    "SPINMANIA TREASURE EDITION": 4, // SPINMANIA TREASURE EDITION - 4 fields
+    "SPINMANIA TREASURE EDITION": 3, // SPINMANIA TREASURE EDITION - 4 fields
     "LIAR'S LIAR": 4, // LIAR'S LIAR - 4 fields
     "MARKUP MAYHEM ESCAPE": 4,
     "MUSICAL HUNT" :4,// MARKUP MAYHEM ESCAPE - 4 fields
@@ -396,16 +396,17 @@ export function SignupFormDemo() {
               value={selectedNumberValue1}
             >
               <option disabled value="">Select Event 1</option>
-              <option value="1">NEURONOVA</option>
-              <option value="2">PUZZLE PALAZZO</option>
-              <option value="3">KNOWLEDGE KNOCKOUT</option>
-              <option value="4">LINK & WIN</option>
-              <option value="5">CHANNEL SURFING</option>
-              <option value="6">KNOWLEDGE KALEIDESCOPE</option>
-              <option value="7">SPINMANIA TREASURE EDITION</option>
-              <option value="8">LIARS LIAR</option>
-              <option value="9">MARKUP MAYHEM ESCAPE</option>
-              <option value="10">MUSICAL HUNT</option>
+
+              <option value="1">KNOWLEDGE KALEIDESCOPE</option>
+              <option value="2">NEURONOVA</option>
+              <option value="3">SPINMANIA TREASURE EDITION</option>
+              <option value="4">MARKUP MAYHEM ESCAPE</option>
+              <option value="5">PUZZLE PALAZZO</option>
+              <option value="6">KNOWLEDGE KNOCKOUT</option>
+              <option value="7">MUSICAL HUNT</option>
+              <option value="8">LINK & WIN</option>
+              <option value="9">TV TUNER TANGO</option>
+              <option value="10">LIARS LIAR</option>
 
 
             </select>
@@ -422,16 +423,16 @@ export function SignupFormDemo() {
               value={selectedNumberValue2}
             >
               <option disabled value="">Select Event 2</option>
-              <option value="1">NEURONOVA</option>
-              <option value="2">PUZZLE PALAZZO</option>
-              <option value="3">KNOWLEDGE KNOCKOUT</option>
-              <option value="4">LINK & WIN</option>
-              <option value="5">CHANNEL SURFING</option>
-              <option value="6">KNOWLEDGE KALEIDESCOPE</option>
-              <option value="7">SPINMANIA TREASURE EDITION</option>
-              <option value="8">LIARS LIAR</option>
-              <option value="9">MARKUP MAYHEM ESCAPE</option>
-              <option value="10">MUSICAL HUNT</option>
+              <option value="1">KNOWLEDGE KALEIDESCOPE</option>
+              <option value="2">NEURONOVA</option>
+              <option value="3">SPINMANIA TREASURE EDITION</option>
+              <option value="4">MARKUP MAYHEM ESCAPE</option>
+              <option value="5">PUZZLE PALAZZO</option>
+              <option value="6">KNOWLEDGE KNOCKOUT</option>
+              <option value="7">MUSICAL HUNT</option>
+              <option value="8">LINK & WIN</option>
+              <option value="9">TV TUNER TANGO</option>
+              <option value="10">LIARS LIAR</option>
             </select>
           </div>
 
@@ -448,16 +449,16 @@ export function SignupFormDemo() {
               value={selectedNumberValue3}
             >
               <option disabled value="">Select Event 3</option>
-              <option value="1">NEURONOVA</option>
-              <option value="2">PUZZLE PALAZZO</option>
-              <option value="3">KNOWLEDGE KNOCKOUT</option>
-              <option value="4">LINK & WIN</option>
-              <option value="5">CHANNEL SURFING</option>
-              <option value="6">KNOWLEDGE KALEIDESCOPE</option>
-              <option value="7">SPINMANIA TREASURE EDITION</option>
-              <option value="8">LIARS LIAR</option>
-              <option value="9">MARKUP MAYHEM ESCAPE</option>
-              <option value="10">MUSICAL HUNT</option>
+              <option value="1">KNOWLEDGE KALEIDESCOPE</option>
+              <option value="2">NEURONOVA</option>
+              <option value="3">SPINMANIA TREASURE EDITION</option>
+              <option value="4">MARKUP MAYHEM ESCAPE</option>
+              <option value="5">PUZZLE PALAZZO</option>
+              <option value="6">KNOWLEDGE KNOCKOUT</option>
+              <option value="7">MUSICAL HUNT</option>
+              <option value="8">LINK & WIN</option>
+              <option value="9">TV TUNER TANGO</option>
+              <option value="10">LIARS LIAR</option>
             </select>
           </div>
 
