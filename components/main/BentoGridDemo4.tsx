@@ -60,11 +60,11 @@ export function SVGMaskEffectDemo1() {
                  </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
              
-              - The Combination lock that we are usinng will require 4 digits(The code will contain 4 digits)to open it.   
+              - The Combination lock that we are usinng will require 4 digits The code will contain 4 digits to open it.   
                          </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
          
-              - The Participants will have to solve or get through 4 hurdles in order to get the code to open the lock.("MAZE,MIXED BLOCKS,WEBSITE SCAVENGER HUNT,LOOP GENERATION").                  </li>
+              - The Participants will have to solve or get through 4 hurdles in order to get the code to open the lock.MAZE,MIXED BLOCKS,WEBSITE SCAVENGER HUNT,LOOP GENERATION.                  </li>
          
             </ul>
           </div>
@@ -84,10 +84,10 @@ export function SVGMaskEffectDemo1() {
               - The Participants(one Team) are locked in a room with a volunteer inside.           
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-              - The Combination lock that we are usinng will require 4 digits(The code will contain 4 digits)to open it.   
+              - The Combination lock that we are usinng will require 4 digits.The code will contain 4 digits to open it.   
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-              - The Participants will have to solve or get through 4 hurdles in order to get the code to open the lock.("MAZE,MIXED BLOCKS,WEBSITE SCAVENGER HUNT,LOOP GENERATION").                 
+              - The Participants will have to solve or get through 4 hurdles in order to get the code to open the lock.MAZE,MIXED BLOCKS,WEBSITE SCAVENGER HUNT,LOOP GENERATION.                 
               </li>
             </ul>
           </div>

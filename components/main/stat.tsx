@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 const getHeight = () => {
-  if (window.innerWidth <= 768) {
+  const width = typeof window !== "undefined" ? window.innerWidth : 0;
+  if (width <= 768) {
     return "100px";
   } else {
     return "200px";
   }
 };
+
 export function Stat() {
   const [downloads, setDownloads] = useState(0);
   const [users, setUsers] = useState(0);

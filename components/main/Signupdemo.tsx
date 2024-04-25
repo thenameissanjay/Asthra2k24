@@ -403,7 +403,7 @@ export function SignupFormDemo() {
               <option value="5">CHANNEL SURFING</option>
               <option value="6">KNOWLEDGE KALEIDESCOPE</option>
               <option value="7">SPINMANIA TREASURE EDITION</option>
-              <option value="8">LIAR'S LIAR</option>
+              <option value="8">LIARS LIAR</option>
               <option value="9">MARKUP MAYHEM ESCAPE</option>
               <option value="10">MUSICAL HUNT</option>
 
@@ -429,7 +429,7 @@ export function SignupFormDemo() {
               <option value="5">CHANNEL SURFING</option>
               <option value="6">KNOWLEDGE KALEIDESCOPE</option>
               <option value="7">SPINMANIA TREASURE EDITION</option>
-              <option value="8">LIAR'S LIAR</option>
+              <option value="8">LIARS LIAR</option>
               <option value="9">MARKUP MAYHEM ESCAPE</option>
               <option value="10">MUSICAL HUNT</option>
             </select>
@@ -455,7 +455,7 @@ export function SignupFormDemo() {
               <option value="5">CHANNEL SURFING</option>
               <option value="6">KNOWLEDGE KALEIDESCOPE</option>
               <option value="7">SPINMANIA TREASURE EDITION</option>
-              <option value="8">LIAR'S LIAR</option>
+              <option value="8">LIARS LIAR</option>
               <option value="9">MARKUP MAYHEM ESCAPE</option>
               <option value="10">MUSICAL HUNT</option>
             </select>

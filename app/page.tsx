@@ -20,7 +20,6 @@ import { collection, getDoc, doc } from "firebase/firestore";
 import { Sponsor } from "@/components/main/sponsor";
 
 
-// Call the function to check Firebase connection
 const getHeight = () => {
   if (typeof window !== "undefined" && window.innerWidth <= 768) {
     return "50px";
@@ -29,45 +28,35 @@ const getHeight = () => {
   }
 };
 
+const getHeight2 = () => {
+  if (typeof window !== "undefined" && window.innerWidth <= 768) {
+    return "-400px";
+  } else {
+    return "-100px";
+  }
+};
 
-  const getHeigh2 = () => {
-    if (window.innerWidth <= 768) {
-      return "-400px";
-    } else {
-      return "-100px";
-    }
-  };
-  const getHeigh4 = () => {
-    if (window.innerWidth <= 768) {
-      return "-200px";
-    } else {
-      return "-100px";
-    }
-  };
+const getHeight4 = () => {
+  if (typeof window !== "undefined" && window.innerWidth <= 768) {
+    return "-200px";
+  } else {
+    return "-100px";
+  }
+};
 
-  const getHeight1 = () => {
-    if (window.innerWidth <= 768) {
-      return "-150px";
-    } else {
-      return "200px";
-    }
-  };
-
+const getHeight1 = () => {
+  if (typeof window !== "undefined" && window.innerWidth <= 768) {
+    return "-150px";
+  } else {
+    return "200px";
+  }
+};
 
 
 export default function Home() {
 
-  const teamsRef = useRef<HTMLDivElement>(null);
  
-useEffect(() => {
-  
-  const urlParams = new URLSearchParams(window.location.search);
-  const section = urlParams.get('section');
- 
-  if (section === "teams") {
-    teamsRef.current?.scrollIntoView({ behavior: 'smooth' });
-  } 
-}, []);
+
 
 
 
@@ -176,7 +165,7 @@ useEffect(() => {
 
     
 
-      <div  style={{marginTop:getHeigh4()}}>
+      <div  style={{marginTop:getHeight4()}}>
       <motion.div
                     initial={{ x: -400 }} // Adjusted initial position off-screen
                     animate={isAnimated3 ? { x: 0 } : { x: -400 }} // Conditionally animate based on isAnimated2
@@ -192,7 +181,7 @@ useEffect(() => {
 
             </div>
 
-            <div ref={ref2} style={{marginTop:getHeigh2()}}>
+            <div ref={ref2} style={{marginTop:getHeight2()}}>
                 <motion.div
                     initial={{ x: 400 }} // Adjusted initial position off-screen
                     animate={isAnimated4 ? { x: 0 } : { x: 400 }} // Conditionally animate based on isAnimated2
@@ -205,7 +194,7 @@ useEffect(() => {
                     </Link>
                 </motion.div>
             </div>
-            <div ref={teamsRef}>
+            <div >
 
             <AuroraBackgroundDemo/>
             </div>

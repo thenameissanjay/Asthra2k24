@@ -11,48 +11,47 @@ import { useEffect, useRef } from "react";
 import ParticlesComponent from "@/components/main/particles";
 
 const getHeight = () => {
-  if (window.innerWidth <= 768) {
+  if (typeof window !== 'undefined' && window.innerWidth <= 768) {
     return "-150px";
   } else {
     return "200px";
   }
 };
 
-const getHeigh2 = () => {
-  if (window.innerWidth <= 768) {
+const getHeight2 = () => {
+  if (typeof window !== 'undefined' && window.innerWidth <= 768) {
     return "50px";
   } else {
     return "100px";
   }
 };
-const getHeigh3 = () => {
-  if (window.innerWidth <= 768) {
+
+const getHeight3 = () => {
+  if (typeof window !== 'undefined' && window.innerWidth <= 768) {
     return "200px";
   } else {
     return "-600px";
   }
 };
 
-
-const getHeigh6 = () => {
-  if (window.innerWidth <= 768) {
+const getHeight6 = () => {
+  if (typeof window !== 'undefined' && window.innerWidth <= 768) {
     return "-100px";
   } else {
     return "-400px";
   }
 };
 
-
-
-const getHeigh4 = () => {
-  if (window.innerWidth <= 768) {
+const getHeight4 = () => {
+  if (typeof window !== 'undefined' && window.innerWidth <= 768) {
     return "-200px";
   } else {
     return "00px";
   }
 };
-const getHeigh5 = () => {
-  if (window.innerWidth <= 768) {
+
+const getHeight5 = () => {
+  if (typeof window !== 'undefined' && window.innerWidth <= 768) {
     return "0px";
   } else {
     return "-100px";
@@ -62,6 +61,7 @@ const getHeigh5 = () => {
 
 
 export default function Home1() {
+  
   const technicalEventsRef = useRef<HTMLDivElement>(null);
   const nonTechnicalEventsRef = useRef<HTMLDivElement>(null);
   const gamingEventsRef = useRef<HTMLDivElement>(null);
@@ -144,7 +144,7 @@ useEffect(() => {
 
       <LampDemo parameter=" Non-Technical Events" / >
 
-      <div className="flex flex-wrap justify-center" style={{ marginBottom: getHeigh3(), marginTop: getHeigh6() }}>
+      <div className="flex flex-wrap justify-center" style={{ marginBottom: getHeight3(), marginTop: getHeight6() }}>
   <div className="mb-4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"style={{ marginBottom: getHeight(), marginTop: getHeight() }}>
     <Link href="./nontechevent1"> 
     <ThreeDCardDemo name="Musical Hunt" description="Music " imageurl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/9.png?alt=media&token=6cbd830e-861d-4295-93cd-3c63532a857a" />
@@ -171,7 +171,7 @@ useEffect(() => {
 
 
 
-<div className="flex flex-wrap justify-center" style={{ marginTop: getHeigh4() , marginBottom:getHeigh5()}}>
+<div className="flex flex-wrap justify-center" style={{ marginTop: getHeight4() , marginBottom:getHeight5()}}>
 
   <div className="mb-4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"style={{ marginBottom: getHeight(), marginTop: getHeight() }} >
   <Link href="./nontechevent4"> 
