@@ -32,7 +32,7 @@ export const SparklesPreview = () => {
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4 bg-black" />
 <div className="text-center md:text-2xl text-sm text-bold mt-10 text-white">
-18th THE NATIONAL LEVEL TECHNICAL SYMPOSIUM
+18th NATIONAL LEVEL TECHNICAL SYMPOSIUM
 </div>
           {/* Core component */}
           <SparklesCore

@@ -113,7 +113,7 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Round 1</h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - Participants will undergo a timed aptitude test covering various cognitive abilities and problem-solving skills.
+          - Aptitude test covering various cognitive abilities and problem-solving skills.
           </li>
         </ul>
       </div>
@@ -121,7 +121,7 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}}>Round 2</h2>
         <ul>
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - Participants will engage in a structured debate on a given topic.
+          - Structured debate on a given topic.
           </li>
         </ul>
       </div>
@@ -129,7 +129,8 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}}>Round 3</h2>
         <ul>
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-       - Participants will undergo a mock job interview to assess communication skills, professionalism, and interview question handling.          </li>
+       - Mock job interview to assess communication skills, professionalism, and interview question handling.    
+             </li>
         </ul>
       </div>
       
@@ -147,7 +148,7 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center" style={{marginBottom:"20px"}}><span className="text-red-500">Round 1</span></h2>
         <ul>
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-          - Participants will undergo a timed aptitude test covering various cognitive abilities and problem-solving skills.
+        - Aptitude test covering various cognitive abilities and problem-solving skills.
           </li>
         </ul>
       </div>
@@ -158,7 +159,7 @@ export function SVGMaskEffectDemo1() {
         }><span className="text-red-500"  >Round 2</span></h2>
         <ul>
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-          - Participants will engage in a structured debate on a given topic.
+        - Structured debate on a given topic.
           </li>
         </ul>
       </div>
@@ -169,7 +170,8 @@ export function SVGMaskEffectDemo1() {
         }><span className="text-red-500" >Round 3</span></h2>
         <ul>
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-       - Participants will undergo a mock job interview to assess communication skills, professionalism, and interview question handling.          </li>
+        - Mock job interview to assess communication skills, professionalism, and interview question handling.    
+             </li>
         </ul>
       </div>
     </div>

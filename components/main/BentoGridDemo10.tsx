@@ -22,7 +22,7 @@ export function BentoGridDemo10() {
     baseHue={120}
     className="flex items-center flex-col justify-center px-2 md:px-10  py-4 h-1000"
   >
-    <BentoGrid className="md:max-w-6xl md:mx-auto mx-auto  ">
+    <BentoGrid className="md:max-w-6xl md:mx-auto mx-auto overflow-hidden  ">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}

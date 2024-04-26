@@ -18,7 +18,7 @@ export function AuroraBackgroundDemo() {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-       <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
+       <div className="text-3xl md:text-7xl font-bold text-gray-300 text-center">
           Our Coordinators
         </div>
        
@@ -43,7 +43,7 @@ export function AuroraBackgroundDemo() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
        
-        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 mt-100" style={{marginTop:"100px"}}>
+        <div className="font-extralight text-base md:text-4xl text-gray-300 py-4 mt-100" style={{marginTop:"100px"}}>
         Overall Coordinators
         </div>
       
@@ -130,7 +130,7 @@ export function AuroraBackgroundDemo() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
        
-        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 mt-100" style={{marginTop:"100px"}}>
+        <div className="font-extralight text-base md:text-4xl text-gray-300 py-4 mt-100" style={{marginTop:"100px"}}>
           Treasurer
         </div>
       
@@ -186,7 +186,7 @@ export function AuroraBackgroundDemo() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
        
-        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 mt-100" style={{marginTop:"100px"}}>
+        <div className="font-extralight text-base md:text-4xl text-gray-300 py-4 mt-100" style={{marginTop:"100px"}}>
           Web Developers
         </div>
       
@@ -264,7 +264,7 @@ export function AuroraBackgroundDemo() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
        
-        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 mt-100" style={{marginTop:"100px"}}>
+        <div className="font-extralight text-base md:text-4xl text-gray-300 py-4 mt-100" style={{marginTop:"100px"}}>
           Editorial team 
         </div>
       

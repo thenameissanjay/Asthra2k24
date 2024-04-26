@@ -105,7 +105,7 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Round 1</h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-         - Paper and pen round.Total questions 20.Teams will be selected to the semi final round based on the maximum points scored.
+         -Total questions 20.Teams will be selected to the semi final round based on the maximum points scored.
           </li>
         </ul>
       </div>
@@ -113,7 +113,7 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}}>Round 2</h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
-          - Buzzer round.Questions will be displayed through PPT.Total questions 15 .Team should answer the question by pressing the buzzer after 30 sec. 
+          - Buzzer round.Questions will be displayed through PPT.Team should answer the question by pressing the buzzer after 30 sec. 
           </li>
         </ul>
       </div>
@@ -140,7 +140,7 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center" style={{marginBottom:"20px"}}><span className="text-red-500">Round 1</span></h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-          - Paper and pen round.Total questions 20.Teams will be selected to the semi final round based on the maximum points scored.
+          -Total questions 20.Teams will be selected to the semi final round based on the maximum points scored.
           </li>
         </ul>
       </div>
@@ -151,7 +151,7 @@ export function SVGMaskEffectDemo1() {
         }><span className="text-red-500"  style={{marginBottom:"20px"}}>Round 2</span></h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-          - Buzzer round.Questions will be displayed through PPT.Total questions 15 .Team should answer the question by pressing the buzzer after 30 sec. 
+          - Buzzer round.Questions will be displayed through PPT.Team should answer the question by pressing the buzzer after 30 sec. 
           </li>
         </ul>
       </div>

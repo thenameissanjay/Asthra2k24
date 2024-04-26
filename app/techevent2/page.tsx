@@ -58,8 +58,7 @@ export default function Home() {
        <div className="flex justify-center">
   <div className="flex flex-wrap justify-center -mx-1">
     <div className="max-w-xs mx-1 my-2">
-    <Link href="https://www.linkedin.com/in/abubacker-siddique-36b7032a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app					
-" target="_blank">
+    <Link href="https://www.linkedin.com/in/divya-dharshini-r-47b698242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
 
       <AnimatedPinDemo name="Divya Dharshini R" imageUrl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/dd.png?alt=media&token=795c0f77-e619-482b-9d63-bfcb1ecfe662" description="Event coordinator" title="Linked In"/>
  

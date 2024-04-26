@@ -142,7 +142,7 @@ useEffect(() => {
 
       <div ref={nonTechnicalEventsRef}>
 
-      <LampDemo parameter=" Non-Technical Events" / >
+      <LampDemo parameter=" Non-Tech Events" / >
 
       <div className="flex flex-wrap justify-center" style={{ marginBottom: getHeight3(), marginTop: getHeight6() }}>
   <div className="mb-4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"style={{ marginBottom: getHeight(), marginTop: getHeight() }}>

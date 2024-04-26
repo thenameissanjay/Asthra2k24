@@ -146,9 +146,6 @@ export default function Home() {
       <Department/>
       </motion.div>
 
-<div  className="mt-[-40rem]" style={{ marginTop: getHeight(), marginBottom: getHeight1() }}>
-  <Stat />
-</div>
 
 <div className="mb-0 flex justify-center items-center overflow-hidden" style={{ marginBottom: getHeight() }}>
 <TimerBg/>

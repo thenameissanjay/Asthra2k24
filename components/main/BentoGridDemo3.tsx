@@ -50,16 +50,15 @@ export function SVGMaskEffectDemo() {
       <MaskContainer
         revealText={
           <><div className="flex flex-wrap justify-center">
-          <div className="m-13">
+          <div className="m-4">
             <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Rules</h2>
             <ul>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
               - Maximum 2-3 participants per team.
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-              - Mobile Phones are strictly prohibited.       
+              - Mobile Phones are strictly prohibited.
               </li>
-         
             </ul>
           </div>
          
@@ -71,16 +70,15 @@ export function SVGMaskEffectDemo() {
         className="h-[40rem] border rounded-md"
       >
         <><div className="flex flex-wrap justify-center">
-          <div className="m-13">
+          <div className="m-4">
             <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} ><span className="text-red-500">Rules</span></h2>
             <ul>
-            <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-            - Maximum 2-3 participants per team.
+              <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
+              - Maximum 2-3 participants per team.
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-              - Mobile Phones are strictly prohibited.       
-                     </li>
-            
+              - Mobile Phones are strictly prohibited.
+              </li>
             </ul>
           </div>
          
@@ -95,6 +93,7 @@ export function SVGMaskEffectDemo() {
 
 
 
+
 export function SVGMaskEffectDemo1() {
   return (
     <MaskContainer
@@ -104,31 +103,18 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Round 1</h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - The five clues are given one by one.50 points for 1st clue.   
-                 </li>
-
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - Minus 10 points for each additional clue.Top 5 teams move to round 2.    
-                     </li>
-
+          - The five clues are given one by one.50 points for 1st clue.Minus 10 points for each additional clue.Top 5 teams move to round 2.
+          </li>
         </ul>
-
       </div>
       <div className="m-4">
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}}>Round 2</h2>
         <ul>
-        <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-        - Find logo,spin quest wheel.Quest wheel provide clue to puzzle piece location.      
-            </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - Collect puzzle piece,get clue to next 4 location(totally 3 puzzle pieces).By joining puzzle pieces,get a programming question.
-                    </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - Fastest team with correct code wins.
-                    </li>
+          <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
+            - Find logo,spin quest wheel.Quest wheel provide clue to puzzle piece location.Collect puzzle piece,get clue to next 4 location totally 3 puzzle pieces.By joining puzzle pieces,get a programming question.Fastest team with correct code wins.
+          </li>
         </ul>
       </div>
-   
       
    
     </div>
@@ -139,36 +125,26 @@ export function SVGMaskEffectDemo1() {
   
 
 
-    <><div className="flex flex-wrap justify-center ">
+    <><div className="flex flex-wrap justify-center mt-[-20]">
       <div className="m-4">
         <h2 className="text-3xl font-bold text-black text-center" style={{marginBottom:"20px"}}><span className="text-red-500">Round 1</span></h2>
         <ul>
-        <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-        - The five clues are given one by one.50 points for 1st clue.   
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-          - Minus 10 points for each additional clue.Top 5 teams move to round 2.    
+          <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
+          - The five clues are given one by one.50 points for 1st clue.Minus 10 points for each additional clue.Top 5 teams move to round 2.
           </li>
         </ul>
       </div>
       <div className="m-4">
         <h2 className="text-3xl font-bold text-black text-center" style={{
-          marginBottom:"20px"
+          marginBottom:"10px"
         }
-        }><span className="text-red-500"  >Round 2</span></h2>
+        }><span className="text-red-500"  style={{marginBottom:"20px"}}>Round 2</span></h2>
         <ul>
-        <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-        - Find logo,spin quest wheel.Quest wheel provide clue to puzzle piece location.      
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-          - Collect puzzle piece,get clue to next 4 location(totally 3 puzzle pieces).By joining puzzle pieces,get a programming question.
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-          - Fastest team with correct code wins.
+        <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
+            - Find logo,spin quest wheel.Quest wheel provide clue to puzzle piece location.Collect puzzle piece,get clue to next 4 location totally 3 puzzle pieces.By joining puzzle pieces,get a programming question.Fastest team with correct code wins.
           </li>
         </ul>
       </div>
-
     </div>
     </>
   </MaskContainer>

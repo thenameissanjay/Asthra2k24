@@ -9,8 +9,8 @@ const College: React.FC = () => {
       <img src="./logoastra.jpg" className=" h-auto rounded-lg shadow-2xl" />
 
       <div>
-        <h2 className="text-4xl font-bold">About Asthra</h2>
-        <p className="py-6">Asthra is a national level technical symposium held annually in our college. It is wholly organised and co-ordinated by our students and supported by the management and staff of Information Technology. Asthra is a stepping stone for students to showcase their technical expertise and talent on a grand stage..</p>
+        <h2 className="text-4xl font-bold text-gray-300">About Asthra</h2>
+        <p className="py-6 text-gray-300">Asthra is a national level technical symposium held annually in our college. It is wholly organised and co-ordinated by our students and supported by the management and staff of Information Technology. Asthra is a stepping stone for students to showcase their technical expertise and talent on a grand stage..</p>
       </div>
     </div>
   </div>

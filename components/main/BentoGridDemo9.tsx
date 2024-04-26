@@ -23,7 +23,7 @@ export function BentoGridDemo9() {
     baseHue={120}
     className="flex items-center flex-col justify-center px-2 md:px-10  py-4 h-1000"
   >
-    <BentoGrid className="md:max-w-6xl md:mx-auto mx-auto ">
+    <BentoGrid className="md:max-w-6xl md:mx-auto mx-auto  ">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -56,10 +56,7 @@ export function SVGMaskEffectDemo() {
             <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Rules</h2>
             <ul>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-              - Only one card can be lifted at a time,and it must be done within the given time limit.
-              </li>
-              <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-              - The team that correctly identifies and lifts the lie statement card wins the round.
+              - Only one card can be lifted at a time,and it must be done within the given time limit.The team that correctly identifies and lifts the lie statement card wins the round.
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
               - The questions will be asked from various domains like technology,history,geography,current affairs,sports,places,wildlife etc.
@@ -78,11 +75,8 @@ export function SVGMaskEffectDemo() {
           <div className="m-4">
             <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} ><span className="text-red-500">Rules</span></h2>
             <ul>
-              <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-              - Only one card can be lifted at a time,and it must be done within the given time limit.
-              </li>
-              <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-              - The team that correctly identifies and lifts the lie statement card wins the round.
+            <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
+            - Only one card can be lifted at a time,and it must be done within the given time limit.The team that correctly identifies and lifts the lie statement card wins the round.
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
               - The questions will be asked from various domains like technology,history,geography,current affairs,sports,places,wildlife etc.
@@ -111,11 +105,9 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Rules</h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - Team can have maximum of 3 Participants.Each team will be provided with 3 cards A,B,C.
+          - Team can have maximum of 3 Participants.Each team will be provided with 3 cards A,B,C.Within 15 seconds,players must choose and lift the cards containing the lie statement.
           </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - Within 15 seconds,players must choose and lift the cards containing the lie statement.
-          </li>
+        
         </ul>
       </div>
       
@@ -134,11 +126,9 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center" style={{marginBottom:"20px"}}><span className="text-red-500">Rules</span></h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-          - Team can have maximum of 3 Participants.Each team will be provided with 3 cards A,B,C.
+          - Team can have maximum of 3 Participants.Each team will be provided with 3 cards A,B,C.Within 15 seconds,players must choose and lift the cards containing the lie statement.
           </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-          - Within 15 seconds,players must choose and lift the cards containing the lie statement.
-          </li>
+        
         </ul>
       </div>
     </div>
@@ -198,7 +188,7 @@ const CustomDate = () => {
 
         </div>
         <div style={{ marginLeft: "-5px" }}>
-          <p className="md:text-lg md:font-bold text-xl text-black">11:30-02:30</p>
+          <p className="md:text-lg md:font-bold text-xl text-black">11:00am-2:30pm</p>
         </div>
       </div>
       <div className="grid grid-cols-2 gap-1 text-center" style={{ marginTop: "-20px" }}>
@@ -232,7 +222,7 @@ const Contacts = () => (
   </div>
    <div className="grid grid-cols-2  text-center "style={{ marginBottom: "-20px", marginTop:"-100px" }} >
    <div>
-   <p className="text-2xl font-semibold text-black">Thameem Mul Ansari</p>
+   <p className="text-2xl font-semibold text-black">Thameem mul ansari</p>
      <p className="text-1xl font-medium text-black">6369318648</p>
    </div>
    <div style={{ marginLeft: "-5px" }}>
@@ -243,11 +233,13 @@ const Contacts = () => (
  </div>
  <div className="grid grid-cols-2  text-center "style={{ marginBottom: "20px", marginTop:"-100px" }} >
    <div>
-   <p className="text-2xl font-semibold text-black">Jithendharan</p>
+   <p className="text-2xl font-semibold text-black">Jithendran </p>
      <p className="text-1xl font-medium text-black">9952957155</p>
    </div>
    <div style={{ marginLeft: "-5px" }}>
-   
+   <svg width="50px" height="50px" viewBox="0 0 24 24" style={{marginLeft:"80px"}} fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.3545 22.2323C15.3344 21.7262 11.1989 20.2993 7.44976 16.5502C3.70065 12.8011 2.2738 8.66559 1.76767 6.6455C1.47681 5.48459 2.00058 4.36434 2.88869 3.72997L5.21694 2.06693C6.57922 1.09388 8.47432 1.42407 9.42724 2.80051L10.893 4.91776C11.5152 5.8165 11.3006 7.0483 10.4111 7.68365L9.24234 8.51849C9.41923 9.1951 9.96939 10.5846 11.6924 12.3076C13.4154 14.0306 14.8049 14.5807 15.4815 14.7576L16.3163 13.5888C16.9517 12.6994 18.1835 12.4847 19.0822 13.1069L21.1995 14.5727C22.5759 15.5257 22.9061 17.4207 21.933 18.783L20.27 21.1113C19.6356 21.9994 18.5154 22.5232 17.3545 22.2323ZM8.86397 15.136C12.2734 18.5454 16.0358 19.8401 17.8405 20.2923C18.1043 20.3583 18.4232 20.2558 18.6425 19.9488L20.3056 17.6205C20.6299 17.1665 20.5199 16.5348 20.061 16.2171L17.9438 14.7513L17.0479 16.0056C16.6818 16.5182 16.0047 16.9202 15.2163 16.7501C14.2323 16.5378 12.4133 15.8569 10.2782 13.7218C8.1431 11.5867 7.46219 9.7677 7.24987 8.7837C7.07977 7.9953 7.48181 7.31821 7.99439 6.95208L9.24864 6.05618L7.78285 3.93893C7.46521 3.48011 6.83351 3.37005 6.37942 3.6944L4.05117 5.35744C3.74413 5.57675 3.64162 5.89565 3.70771 6.15943C4.15989 7.96418 5.45459 11.7266 8.86397 15.136Z" fill="#0F0F0F"/>
+</svg>
    </div>
  </div>
  </>

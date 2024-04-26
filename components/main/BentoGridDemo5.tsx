@@ -101,32 +101,26 @@ export function SVGMaskEffectDemo1() {
     <MaskContainer
     revealText={
       <><div className="flex flex-wrap justify-center">
-      <div className="m-4">
-        <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Round 1</h2>
+
+<div className="m-4">
+        <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}}>Round 1</h2>
         <ul>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - Roll the dice to unlock either a puzzle or a code.
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - This step iterates till the timer ends.
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-          - Teams achieving the most distance in the life board game is selected for the second round.
-          </li>
+       
+        <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
+    The Tile Trek Challenge
+              </li>
+         
         </ul>
       </div>
+      
       <div className="m-4">
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}}>Round 2</h2>
         <ul>
+       
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
-            - 2 system will be allocated for each team and one person has to solve the code.
+          - 2 system will be allocated for each team and one person has to solve the code.Once both the puzzle and the code has been solved,next set of questions will be displayed.Winners are selected based on the maximum number of questions solved within the given time.
           </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
-            - Once both the puzzle and the code has been solved,next set of questions will be displayed. 
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
-            - Winners are selected based on the maximum number of questions solved within the given time. 
-          </li>
+         
         </ul>
       </div>
       
@@ -139,35 +133,27 @@ export function SVGMaskEffectDemo1() {
   
 
 
-    <><div className="flex flex-wrap justify-center ">
-      <div className="m-4">
-        <h2 className="text-3xl font-bold text-black text-center" style={{marginBottom:"20px"}}><span className="text-red-500">Round 1</span></h2>
+    <><div className="flex flex-wrap justify-center mt-[-20]">
+  
+
+    <div className="m-4">
+        <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}}>Round 1</h2>
         <ul>
-        <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-          - Roll the dice to unlock either a puzzle or a code.
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-          - This step iterates till the timer ends.
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-          - Teams achieving the most distance in the life board game is selected for the second round.
-          </li>
+       
+        <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
+    The Tile Trek Challenge
+              </li>
+         
         </ul>
       </div>
       <div className="m-4">
         <h2 className="text-3xl font-bold text-black text-center" style={{
-          marginBottom:"20px"
+          marginBottom:"10px"
         }
-        }><span className="text-red-500"  >Round 2</span></h2>
+        }><span className="text-red-500"  style={{marginBottom:"20px"}}>Round 2</span></h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-            - 2 system will be allocated for each team and one person has to solve the code.
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-            - Once both the puzzle and the code has been solved,next set of questions will be displayed. 
-          </li>
-          <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-            - Winners are selected based on the maximum number of questions solved within the given time. 
+            - 2 system will be allocated for each team and one person has to solve the code.Once both the puzzle and the code has been solved,next set of questions will be displayed.Winners are selected based on the maximum number of questions solved within the given time.
           </li>
         </ul>
       </div>
@@ -176,8 +162,6 @@ export function SVGMaskEffectDemo1() {
   </MaskContainer>
   );
 }
-
-
 
 
 const Registration = () => (
