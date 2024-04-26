@@ -87,7 +87,7 @@ useEffect(() => {
 
 <LampDemo parameter="Technical Events" />
 
-<div className="flex flex-wrap justify-center" style={{ marginBottom: "100px", marginTop: "-100px" }}>
+<div className="flex flex-wrap justify-center" style={{ marginBottom: getHeight3(), marginTop: getHeight6() }}>
 <motion.div
   initial={{ scale: 0 }}
   animate={{ rotate: 180, scale: 1 }}
@@ -97,38 +97,38 @@ useEffect(() => {
     damping: 20
   }}
 />
-  <div className="flex justify-center" style={{ marginRight: "20px" }}> {/* Added margin to the right of the first card */}
-    <Link href='./techevent1' >
-      <EvervaultCardDemo  name="Knowledge Kaleidoscope " description="Paper Presentation"  />
+  <div className="mb-4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"style={{ marginBottom: getHeight(), marginTop: getHeight() }}>    <Link href='./techevent1' >
+    <ThreeDCardDemo name="Knowledge kalideoscope" description="Music " imageurl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/5.png?alt=media&token=67c45491-411b-4371-8cf9-4913b6804d71" />
     </Link>
   </div>
-  <div className="flex justify-center" style={{ marginRight: "20px" }}> {/* Added margin to the right of the second card */}
+  <div className="mb-1 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"style={{ marginBottom: getHeight(), marginTop: getHeight() }}>
     <Link href='./techevent2'>
-      <EvervaultCardDemo  name="NeuroNova" description="Mock Interview" />
+    <ThreeDCardDemo name="Neuronova" description="Music " imageurl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/1.png?alt=media&token=457fc147-e7e4-45d7-87cd-520984c7fb7f" />
     </Link>
   </div>
-  <div className="flex justify-center"> {/* No margin added to the last card */}
+  <div className="mb-4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"style={{ marginBottom: getHeight(), marginTop: getHeight() }}>
     <Link href='./techevent3'>
-      <EvervaultCardDemo  name="SpinScape Treasure Edition" description="Technical Treasure"  />
+    <ThreeDCardDemo name="Spinmania " description="Music " imageurl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/6.png?alt=media&token=5d96f06b-54c1-4561-80a5-413148bdc473" />
     </Link>
   </div>
 </div>
 
 
-<div className="flex flex-wrap justify-center" style={{ marginBottom: "100px", marginTop: "-100px" }}>
-  <div className="flex justify-center" style={{ marginRight: "20px" }}> {/* Added margin to the right of the first card */}
+<div className="flex flex-wrap justify-center" style={{ marginTop: getHeight4() , marginBottom:getHeight5()}}>
+
+  <div className="mb-4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"style={{ marginBottom: getHeight(), marginTop: getHeight() }} >
     <Link href='./techevent4'>
-      <EvervaultCardDemo  name="Markup Mayhem Escape" description="HTML coding " />
+    <ThreeDCardDemo name="markup " description="Music " imageurl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/8.png?alt=media&token=4ca57b24-63ad-42f3-aac5-02a17e932b3d" />
     </Link>
   </div>
-  <div className="flex justify-center" style={{ marginRight: "20px" }}> {/* Added margin to the right of the second card */}
+  <div className="mb-4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"style={{ marginBottom: getHeight(), marginTop:getHeight() }}>
     <Link href='./techevent5'>
-      <EvervaultCardDemo  name="Puzzle Palooza Codeathon" description="Debugging"  />
+    <ThreeDCardDemo name="palleze" description="Music " imageurl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/4.png?alt=media&token=8f197a46-7d0b-4355-b589-e279c74d3347" />
     </Link>
   </div>
-  <div className="flex justify-center" style={{ marginRight: "20px" }}> {/* Added margin to the right of the second card */}
+  <div className="mb-4 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"style={{ marginBottom: getHeight(), marginTop:getHeight() }}>
     <Link href='./techevent6'>
-      <EvervaultCardDemo  name="Knowledge Knockout" description="Technical Quiz"  />
+    <ThreeDCardDemo name="Knockout" description="Music " imageurl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/10.png?alt=media&token=b20e9f04-9add-44b6-99ea-1f034badb2a5" />
     </Link>
   </div>
  
