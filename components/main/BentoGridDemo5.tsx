@@ -107,7 +107,7 @@ export function SVGMaskEffectDemo1() {
         <ul>
        
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
-    The Tile Trek Challenge
+         - The Tile Trek Challenge
               </li>
          
         </ul>
@@ -140,8 +140,8 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}}>Round 1</h2>
         <ul>
        
-        <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
-    The Tile Trek Challenge
+        <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
+   - The Tile Trek Challenge
               </li>
          
         </ul>
