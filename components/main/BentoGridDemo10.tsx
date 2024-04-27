@@ -249,7 +249,7 @@ const Contacts = () => (
    <div className="grid grid-cols-2  text-center "style={{ marginBottom: "-20px", marginTop:"-100px" }} >
    <div>
    <p className="text-2xl font-semibold text-black">Abhay Kesav</p>
-     <p className="text-1xl font-medium text-black">8754519779</p>
+     <p className="text-1xl font-medium text-black">8754519778</p>
    </div>
    <div style={{ marginLeft: "-5px" }}>
    <svg width="50px" height="50px" viewBox="0 0 24 24" style={{marginLeft:"80px"}} fill="none" xmlns="http://www.w3.org/2000/svg">
