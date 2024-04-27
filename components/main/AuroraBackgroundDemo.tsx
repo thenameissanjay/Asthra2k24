@@ -318,14 +318,14 @@ export function AuroraBackgroundDemo() {
  <div className="max-w-xs mx-1 my-2">
     <Link href="https://www.linkedin.com/in/saarah-akthar-7a9651229" target="_blank">
 
-      <AnimatedPinDemo name="Saraah Akthar" imageUrl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/saarah.png?alt=media&token=6cbf283b-89f8-409c-8ee4-4dbbf268e75c" description="Designer" title="Linked In"/>
+      <AnimatedPinDemo name="Saarah Akthar" imageUrl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/saarah.png?alt=media&token=6cbf283b-89f8-409c-8ee4-4dbbf268e75c" description="Designer" title="Linked In"/>
    
       </Link>
  </div>
  <div className="max-w-xs mx-1 my-2">
     <Link href="https://www.linkedin.com/in/manissha-nivasini-m-568b09285" target="_blank">
 
-      <AnimatedPinDemo name="Manisha Nivassani" imageUrl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/manisha.png?alt=media&token=f4319419-4ad6-43a5-b46b-88b49f24037c" description="Designer" title="Linked In"/>
+      <AnimatedPinDemo name="Manissha Nivasini" imageUrl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/manisha.png?alt=media&token=f4319419-4ad6-43a5-b46b-88b49f24037c" description="Designer" title="Linked In"/>
    
       </Link>
  </div>
