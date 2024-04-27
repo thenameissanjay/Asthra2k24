@@ -18,7 +18,7 @@ export default function Home() {
     baseHue={120}
     className="flex items-center flex-col justify-center px-2 md:px-10  py-4 h-1000"
   >
-      <LampDemo parameter="SpinScape Treasure Edition" />
+      <LampDemo parameter="SpinMania Treasure Edition" />
       </Vortex>
       <div > <BentoGridDemo3/></div>
       <Vortex
