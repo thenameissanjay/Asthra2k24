@@ -56,10 +56,10 @@ export function SVGMaskEffectDemo() {
             <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Rules</h2>
             <ul>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-             - Each team should consist of two members.Participants must answer the questions within a specified time limit.Further instruction will be provided on the day of the event.
+             - Each team should consist of two members.Participants must answer the questions within a specified time limit.
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-              - Round one will be the preliminary round.Round two will be the semi-final.Round three will be the final.
+              - Round one will be the preliminary round.Round two will be the semi-final.Round three will be the final.Further instruction will be provided on the day of the event.
               </li>
             </ul>
           </div>
@@ -76,10 +76,10 @@ export function SVGMaskEffectDemo() {
             <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} ><span className="text-red-500">Rules</span></h2>
             <ul>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-              - Each team should consist of two members.Participants must answer the questions within a specified time limit.Further instruction will be provided on the day of the event.
+              - Each team should consist of two members.Participants must answer the questions within a specified time limit.
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-              - Round one will be the preliminary round.Round two will be the semi-final.Round three will be the final.
+              - Round one will be the preliminary round.Round two will be the semi-final.Round three will be the final.Further instruction will be provided on the day of the event.
               </li>
             </ul>
           </div>
@@ -105,7 +105,7 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Round 1</h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-         -Total questions 20.Teams will be selected to the semi final round based on the maximum points scored.
+         - Pen and Paper round.Teams will be selected to the semi final round based on the maximum points scored.
           </li>
         </ul>
       </div>
@@ -140,7 +140,7 @@ export function SVGMaskEffectDemo1() {
         <h2 className="text-3xl font-bold text-black text-center" style={{marginBottom:"20px"}}><span className="text-red-500">Round 1</span></h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-          -Total questions 20.Teams will be selected to the semi final round based on the maximum points scored.
+          - Pen and Paper round.Teams will be selected to the semi final round based on the maximum points scored.
           </li>
         </ul>
       </div>
