@@ -107,7 +107,7 @@ export function SVGMaskEffectDemo1() {
         <ul>
        
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
-         - The Tile Trek Challenge
+         - Tile Trek Challenge
               </li>
          
         </ul>
@@ -118,7 +118,7 @@ export function SVGMaskEffectDemo1() {
         <ul>
        
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold">
-          - 2 system will be allocated for each team and one person has to solve the code.Once both the puzzle and the code has been solved,next set of questions will be displayed.Winners are selected based on the maximum number of questions solved within the given time.
+          - Each team is provided with 2 systems.One solve the puzzle & the other codes.After solving puzzle and code,the team receive next set of questions.Top acheivers will be selected based on the Quantity of question solved quickly.
           </li>
          
         </ul>
@@ -141,7 +141,7 @@ export function SVGMaskEffectDemo1() {
         <ul>
        
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-   - The Tile Trek Challenge
+   - Tile Trek Challenge
               </li>
          
         </ul>
@@ -153,7 +153,7 @@ export function SVGMaskEffectDemo1() {
         }><span className="text-red-500"  style={{marginBottom:"20px"}}>Round 2</span></h2>
         <ul>
           <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
-            - 2 system will be allocated for each team and one person has to solve the code.Once both the puzzle and the code has been solved,next set of questions will be displayed.Winners are selected based on the maximum number of questions solved within the given time.
+          - Each team is provided with 2 systems.One solve the puzzle & the other codes.After solving puzzle and code,the team receive next set of questions.Top acheivers will be selected based on the Quantity of question solved quickly.
           </li>
         </ul>
       </div>
