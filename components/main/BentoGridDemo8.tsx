@@ -56,7 +56,7 @@ export function SVGMaskEffectDemo() {
             <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} >Rules</h2>
             <ul>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
-              - Maximum 3-6 Participants per team are allowed.
+              - Maximum 2-6 Participants per team are allowed.
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold">
              - Number of Round is 1(Conduct a Tiebreaker if needed in case of a tie) and No Vulgarity.
@@ -76,7 +76,7 @@ export function SVGMaskEffectDemo() {
             <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}} ><span className="text-red-500">Rules</span></h2>
             <ul>
             <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
-              - Maximum 3-6 Participants per team are allowed.
+              - Maximum 2-6 Participants per team are allowed.
               </li>
               <li className="max-w-4xl mx-auto text-slate-800 text-center text-1xl font-bold text-white">
              - Number of Round is 1(Conduct a Tiebreaker if needed in case of a tie) and No Vulgarity.
@@ -209,7 +209,7 @@ const CustomDate = () => {
         <img src="./icons8-member-48.png" alt="dead" className="w-[3rem] h-[3rem] mb-4" style={{marginLeft:"50px", marginTop:"-10px"}}/>
         </div>
         <div style={{ marginLeft: "-5px" }}>
-          <p className="md:text-2xl md:font-bold text-xl text-black">4-6 Members</p>
+          <p className="md:text-2xl md:font-bold text-xl text-black">2-6 Members</p>
         </div>
       </div>
     </>
