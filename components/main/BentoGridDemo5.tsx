@@ -137,7 +137,7 @@ export function SVGMaskEffectDemo1() {
   
 
     <div className="m-4">
-        <h2 className="text-3xl font-bold text-black text-center"  style={{marginBottom:"20px"}}>Round 1</h2>
+        <h2 className="text-3xl font-bold text-black text-center" <span className="text-red-500" style={{marginBottom:"20px"}}>Round 1</span></h2>
         <ul>
        
         <li className="max-w-4xl mx-auto text-slate-800 text-center text-2xl font-bold text-white">
