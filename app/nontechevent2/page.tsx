@@ -66,10 +66,10 @@ export default function Home() {
       </Link>
   </div>
     <div className="max-w-xs mx-1 my-2">
-    <Link href="https://www.linkedin.com/in/renuga-devi-p-2334b1287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+    <Link href="https://www.linkedin.com/in/janani-s-a54509305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
 
-      <AnimatedPinDemo name="Renuga Devi P" imageUrl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/renuga.png?alt=media&token=5d8ace0c-c953-4c85-9f49-15158b2f73dc" description="Event coordinator" title="Linked In"/>
-   
+      <AnimatedPinDemo name="Janani S" imageUrl="https://firebasestorage.googleapis.com/v0/b/astra2k24-c3388.appspot.com/o/janani.png?alt=media&token=8ec2c418-6d4c-47f6-a07d-8e4c909e1b95" description="Event coordinator" title="Linked In"/>
+  
       </Link>
   </div>
     <div className="max-w-xs mx-1 my-2">
